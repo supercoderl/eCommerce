@@ -29,7 +29,7 @@ const Footer = () => {
               <li><Link to="/">Nghề nghiệp</Link></li>
               <li><Link to="/shop">Sản phẩm</Link></li>
               <li><Link to="/">Điều khoản</Link></li>
-              <li><Link to="https://inox-thanhnam-admin.vercel.app/admin/login" target="_blank">Đăng nhập admin</Link></li>
+              {/* <li><Link to="https://inox-thanhnam-admin.vercel.app/admin/login" target="_blank">Đăng nhập admin</Link></li> */}
             </ul>
           </Col>
           <Col md={3} sm={5} className='box'>
