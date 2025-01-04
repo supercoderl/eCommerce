@@ -9,15 +9,15 @@ const Footer = () => {
       <Container>
         <Row className="footer-row">
           <Col md={3} sm={5} className='box'>
-            <div className="logo">
+            <a href="/" className="logo" style={{ textDecoration: 'none' }}>
               <img
-                src="https://cdn-icons-png.flaticon.com/128/13941/13941933.png"
+                src="https://static.vecteezy.com/system/resources/thumbnails/025/309/271/small/3d-icon-desktop-product-display-e-commerce-png.png"
                 alt=""
                 width={40} height={40}
               />
-              <h1>Inox Thành Nam</h1>
-            </div>
-            <p>Chuyên cung cấp các sản phẩm đồ cũ, inox từ bàn ghế salon đến các loại tủ thông dụng. Hãy đến với chúng tôi để mang lại một trải nghiệm về nội thất cho căn nhà của bạn.</p>
+              <h1>E-commerce</h1>
+            </a>
+            <p>E-commerce được viết tắt bởi cụm từ "Electronic Commerce" hay còn gọi là Thương mại điện tử là hình thức kinh doanh trực tuyến, trong đó việc truyền thông, mua bán, trao đổi, thanh toán hàng hóa / dịch vụ</p>
           </Col>
           <Col md={3} sm={5} className='box'>
             <div className="d-flex align-items-strength">
@@ -45,12 +45,12 @@ const Footer = () => {
           <Col md={3} sm={5} className='box'>
             <div className="d-flex align-items-strength">
               <img src="https://cdn-icons-png.flaticon.com/128/10215/10215258.png" width={30} height={30} alt="" />
-              <h2 className="ms-2">Liên hệ</h2>
+              <h2 className="ms-2">Đánh giá</h2>
             </div>
             <ul>
-              <li>99 Đường T1,Phường Tây Thạnh , Quận Tân Phú, Thành phố Hồ Chí Minh</li>
-              <li>Email: namsipo.2001@gmail.com</li>
-              <li>Điện thoại: 0776747680 - 0909239816 - 0902273698</li>
+              <li>ABC, Huyện XYZ, Thành phố Hồ Chí Minh</li>
+              <li>Email: gool@ecommerce.com</li>
+              <li>Hotline: 11009999</li>
             </ul>
           </Col>
         </Row>

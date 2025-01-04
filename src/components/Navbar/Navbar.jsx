@@ -27,13 +27,13 @@ const NavBar = ({ order }) => {
       className={isFixed ? "navbar fixed" : "navbar"}
     >
       <Container className="navbar-container">
-        <Navbar.Brand to="/">
+        <Navbar.Brand href="/">
           <img
-            src="https://cdn-icons-png.flaticon.com/128/13941/13941933.png"
+            src="https://static.vecteezy.com/system/resources/thumbnails/025/309/271/small/3d-icon-desktop-product-display-e-commerce-png.png"
             alt=""
             width={40} height={40}
           />
-          <h1 className="logo">Inox Thành Nam</h1>
+          <h1 className="logo">E-commerce</h1>
         </Navbar.Brand>
         {/* Media cart and toggle */}
         <div className="d-flex">
@@ -119,7 +119,7 @@ const NavBar = ({ order }) => {
                 to="/contact"
                 reloadDocument
               >
-                <span className="nav-link-label">Liên hệ</span>
+                <span className="nav-link-label">Đánh giá</span>
               </Link>
             </Nav.Item>
             <Nav.Item className="expanded-cart">

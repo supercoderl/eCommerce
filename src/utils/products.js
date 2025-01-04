@@ -23,6 +23,9 @@ import phone08 from "../Images/table-chairs.png";
 import watch01 from "../Images/watch-01.jpg";
 import watch02 from "../Images/watch-02.jpg";
 import watch03 from "../Images/watch-03.jpg";
+import watch08 from "../Images/watch-08.webp";
+import watch09 from "../Images/watch-09.webp";
+import watch10 from "../Images/watch-10.png";
 import watch04 from "../Images/watch-04.jpg";
 
 import wireless01 from "../Images/ice-box.png";
@@ -39,25 +42,19 @@ export const SliderData = [
       id: 1,
       title: "Chương trình khuyến mãi",
       desc: "Tất cả các khách hàng mới sẽ được giảm giá ngay 10% trên tổng hóa đơn mua hàng. Đây là cơ hội tuyệt vời để bạn sở hữu những sản phẩm chất lượng với mức giá cực kỳ ưu đãi.",
-      cover: sofaSlide,
+      cover: watch08,
   },
   {
       id: 2,
       title: "Quà tặng kèm 0 đồng",
-      desc: "Với mỗi đơn hàng trị giá từ 1 triệu đồng trở lên, quý khách sẽ nhận được một món quà tặng kèm là bộ dụng cụ nhà bếp tiện lợi, giúp việc nấu nướng trở nên dễ dàng và thú vị hơn.",
-      cover: phone08,
+      desc: "Chương trình khuyến mãi là một trong những hình thức mà các doanh nghiệp thường xuyên sử dụng để tăng doanh số và thu hút lượng lớn khách hàng. Các chương trình khuyến mãi là 1 phần quan trọng trong tiếp thị và bán hàng của các cửa hàng bán lẻ vì khuyến mãi không chỉ giúp thu hút khách hàng, thúc đẩy doanh số bán hàng mà còn giúp bạn xả hàng tồn kho nhanh chóng.",
+      cover: watch09,
   },
   {
       id: 3,
       title: "Bảo hành sản phẩm",
-      desc: "Mọi sản phẩm inox và đồ dân dụng tại cửa hàng đều được bảo hành chính hãng lên đến 12 tháng, đảm bảo chất lượng và sự hài lòng tuyệt đối cho quý khách.",
-      cover: wireless01,
-  },
-  {
-      id: 4,
-      title: "Bộ dao kéo nhà bếp đa năng",
-      desc: "Bao gồm nhiều loại dao chuyên dụng phù hợp cho mọi nhu cầu nấu nướng, hiện cũng đang có chương trình khuyến mãi mua 1 tặng 1 trong suốt thời gian diễn ra chương trình.",
-      cover: tableSlide,
+      desc: "Áp dụng cho sản phẩm mới mua, thời gian bảo hành tính từ ngày mua đầu tiên của sản phẩm và không được gia hạn nếu sản phẩm được bán hoặc sang nhượng cho khách hàng khác. Trong trường hợp sản phẩm được đặt ở vị trí phức tạp, nguy hiểm khó tiếp cận, đòi hỏi phải có thêm công cụ và nhân lực, Quý khách vui lòng thanh toán chi phí phát sinh liên quan, áp dụng cho cả sản phẩm còn trong thời hạn bảo hành.",
+      cover: watch10,
   },
 ];
 

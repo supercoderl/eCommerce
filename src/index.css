@@ -784,3 +784,166 @@ button.delete ion-icon {
     width: 100% !important;
   }
 }
+
+#feedback {
+  width: 100%;
+}
+
+.feedback-modal {
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 750px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-inline: auto;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  max-width: 421px;
+  width: 100%;
+}
+
+.rating-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.rating-options .border {
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #e5edff;
+  padding: 20px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s, transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18%;
+  min-width: 90px;
+  box-sizing: border-box;
+}
+
+.rating-options input {
+  display: none;
+}
+
+.rating-options .border {
+  box-shadow: none;
+  transform: scale(1);
+  color: #60699a;
+}
+
+.emoji {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 4px;
+  color: #60699a;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  border: 2px solid #a3b8e8;
+  resize: none;
+  font-size: 1rem;
+  height: 80px;
+  outline: none;
+}
+
+.options {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.checkbox {
+  display: block;
+  margin-top: 8px;
+}
+
+.checkbox input {
+  margin-right: 8px;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.checkbox a,
+.checkbox a:visited {
+  color: #d22e69;
+  text-decoration: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.actions button {
+  padding: 20px 30px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+  line-height: 3px;
+}
+
+#submit {
+  background-color:rgb(108, 10, 46);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+#contact-consent-error {
+  color: #d22e69;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 8px;
+  display: none; /* Hide the error message by default */
+}
+
+#success-message {
+  color: green;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 8px;
+  display: none; /* Hide the success message by default */
+}
+
+@media (max-width: 720px) {
+  body {
+    height: auto;
+  }
+
+  .feedback-modal {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  .rating-options {
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px auto;
+    justify-content: center;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+}
